@@ -23,8 +23,8 @@ void times_table(void)
 			{
 				_putchar((Res / 10) + '0');
 				_putchar((Res % 10) + '0');
+				_putchar(',');
 			}
-			_putchar(',');
 			_putchar(' ');
 		}
 		_putchar('\n');
