@@ -14,9 +14,10 @@ void print_times_table(int n)
 		for (x = 0; x <= n; ++x)
 		{
 			_putchar(',');
-			_putcahr(' ');
+			_putchar(' ');
 
-			i = x + j;
+			i = x * j;
+
 			if (i <= 9)
 				_putchar(' ');
 			if (i <= 99)
