@@ -3,31 +3,25 @@
 /**
  * print_to_98 - prints all numbers from n to 98
  *@n: the number to start printing from
- *
+ *Return:
  */
 void print_to_98(int n)
 {
-	if (n <= 98)
+	int cnt;
+
+	if (n > 98)
 	{
-		for (int i = n; i <= 98; i++)
+		for (cnt = n; cnt > 98; cnt--)
 		{
-			printf("%d", i);
-			if (i != 98)
-			{
-			printf(", ");
-			}
+			printf("%d, ", cnt);
 		}
 	}
 	else
 	{
-		for (int i = n; i >= 98; i--)
+		for (cnt = n; cnt < 98; cnt++)
 		{
-			printf("%d", i);
-			if (i != 98)
-			{
-				printf(", ");
-			}
+			printf("%d,", cnt);
 		}
 	}
-	printf("\n");
+	print("98\n");
 }
