@@ -2,14 +2,13 @@
 /**
  * _isdigit - check for a digit 0 through 9
  *
- * @i:
+ * @c: input
+ *
  *Return: 1 if c is digit 0 otherwise
  */
 int _isdigit(int c)
 {
-	int c;
-
-	if (c >= 0 && c <= 9)
+	if (c >= 48 && c <= 57)
 		return (1);
 	else
 		return (0);
