@@ -7,7 +7,7 @@
  */
 void print_rev(char *s)
 {
-	if (s == NUL)
+	if (s == NULL)
 		return;
 
 	char *end = s;
