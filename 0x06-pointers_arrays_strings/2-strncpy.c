@@ -6,7 +6,7 @@
  * @src: 2nd char
  * @n: integer
  *
- *Return: Nothing
+ *Return: @dest
  */
 int *_strncpy(char *dest, char *src, int n)
 {
